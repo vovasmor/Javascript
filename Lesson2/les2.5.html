@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "use strict"
+        /*
+        5. Реализовать функцию с тремя параметрами: function mathOperation(arg1, arg2, operation), 
+        где arg1, arg2 – значения аргументов, operation – строка с названием операции. В зависимости от 
+        переданного значения операции (использовать switch) выполнить одну из арифметических операций 
+        (использовать функции из задания 4) и вернуть полученное значение. 
+        */
+        
+        function mathOperation(arg1, arg2, operation) {
+            switch (operation) {
+                    
+                case "сложение":
+                    function sum(a, b) {
+                        return a + b;            
+                    }
+                    alert(sum(arg1, arg2))
+                    break;
+                    
+                case "вычитание":
+                    function sub(a, b) {
+                        return a - b;
+                    } 
+                    alert(sub(arg1, arg2))
+                    break;
+                    
+                case "деление":
+                    function div(a, b) {
+                        return a / b;
+                    }
+                    alert(div(arg1, arg2))
+                    break;
+                    
+                case "умножение":
+                    function mult(a, b) {
+                        return a * b
+                    }
+                    alert(mult(arg1, arg2))
+                    break;
+            }
+        }
+        
+        mathOperation(5, 5, "сложение")   
+    </script>
+</body>
+</html>
