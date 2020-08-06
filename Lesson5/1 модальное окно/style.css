@@ -1,0 +1,40 @@
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.header {
+    height: 80px;
+    margin-bottom: 50px;
+    background-color: darkgrey;
+}
+
+.modal_btn {
+    font-size: medium;
+    border-radius: 6px;
+    margin-top: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.main {
+    margin: 0 auto;
+    width: 200px;
+    font-size: 24px;
+}
+
+.hide_btn {
+    float: right;
+    border-radius: 50%;
+    width: 33px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.hide_btn:hover {
+    background-color: lightgrey;
+}
